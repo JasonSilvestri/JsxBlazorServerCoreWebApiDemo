@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-JsxBlazorServerCoreWebApiDemo-c37c4df2-8804-477a-9bbb-92593e0a78e7</UserSecretsId>
+    <Title>jSilvestri.com BETA v 2024 Web API Demo Collection: JSX Blazor Server Asp.NET Web API Demo</Title>
+    <Version>2024.0.0.001</Version>
+    <Company>jSilvestri.com</Company>
+    <Product>jSilvestri.com BETA v 2024 Web API Demo Collection: Official JSX Blazor Server Asp.NET Web API Demo Application</Product>
+    <Description>The jSilvestri.com BETA v 2024  mobile and web applications, developed for most smart phones, tablets and desktop computers, were created to showcase a wide range of skills to potential clients and employers, to support existing clients, while providing helpful information to fellow developers, demos for interview talks, access to resumes, etc.
+
+The `JsxBlazorServerCoreWebApiDemo` application (i.e., _jSilvestri.com BETA v 2024 JSX Blazor Server Asp.NET Core Web API Demo_) in specific, is a FREE, open-source, custom, reusable, jSilvestri.com 2024 Web API Demo Collections ASP.NET Core Project, which accesses the `JsxWebApi` Web API, demonstrating the usage of Web APIs, JWT authentication, client-side and server-side frameworks for user authentication, using Blazor Technologies. This project ensures consistency and simplifies the management of these resources.</Description>
+    <Copyright>Copyright © 2024 All Rights Reserved by Jason Silvestri</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/JasonSilvestri/JsxBlazorServerCoreWebApiDemo</RepositoryUrl>
+    <PackageReleaseNotes>06/12/2024 JSILVESTRI.COM BETA V 2024.0.0.001 CHECK-IN
+Current Workflow State: Completed
+Mobile / Web Developer: Jason Silvestri
+
+Date Reported:    June 12, 2024
+Date Completed: June 12, 2024
+Build: BETA v 2024.0.0.001
+
+All Notes:
+This release (2024.0.0.001) marks the first iteration of the custom jSilvestri.com BETA v 2024 Web API Demo Collection: Official JSX Blazor Server Asp.NET Web API Demo Application.
+
+⚠️ IMPORTANT! ⚠️
+
+This is the initial release of the Custom jSilvestri.com BETA v2024 Web API Demo Collection: Official JSX S Blazor Server Asp.NET Web API Demo Application. It includes only the essential resources by design.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.18" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.18" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
+
+</Project>

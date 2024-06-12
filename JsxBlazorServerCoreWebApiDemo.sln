@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsxBlazorServerCoreWebApiDemo", "JsxBlazorServerCoreWebApiDemo.csproj", "{4250FF62-AD29-4127-B784-EF5CE4DAFA7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsxClassLibrary", "..\JsxClassLibrary\JsxClassLibrary.csproj", "{A74ECA6A-F40F-466A-AB32-9C58C091F561}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsxSharedResources", "..\JsxSharedResources\JsxSharedResources.csproj", "{908C0681-CF55-4883-A114-A0AEC923B2F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsxWebApi", "..\JsxWebApi\JsxWebApi.csproj", "{574ADD51-7CD9-4C65-82F1-17A29DBD7243}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4250FF62-AD29-4127-B784-EF5CE4DAFA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4250FF62-AD29-4127-B784-EF5CE4DAFA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4250FF62-AD29-4127-B784-EF5CE4DAFA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4250FF62-AD29-4127-B784-EF5CE4DAFA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74ECA6A-F40F-466A-AB32-9C58C091F561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74ECA6A-F40F-466A-AB32-9C58C091F561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74ECA6A-F40F-466A-AB32-9C58C091F561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74ECA6A-F40F-466A-AB32-9C58C091F561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908C0681-CF55-4883-A114-A0AEC923B2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908C0681-CF55-4883-A114-A0AEC923B2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908C0681-CF55-4883-A114-A0AEC923B2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908C0681-CF55-4883-A114-A0AEC923B2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{574ADD51-7CD9-4C65-82F1-17A29DBD7243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574ADD51-7CD9-4C65-82F1-17A29DBD7243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574ADD51-7CD9-4C65-82F1-17A29DBD7243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574ADD51-7CD9-4C65-82F1-17A29DBD7243}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AA1BEB0-6A30-452C-BFAF-8D0C9C0459CE}
+	EndGlobalSection
+EndGlobal
