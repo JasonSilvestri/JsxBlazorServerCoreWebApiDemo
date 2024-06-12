@@ -2,10 +2,8 @@
 
 The `JsxBlazorServerCoreWebApiDemo` application (i.e., _jSilvestri.com BETA v 2024 JSX Blazor Server Asp.NET Core Web API Demo_) in specific, is a FREE, open-source, custom, reusable, jSilvestri.com 2024 Web API Demo Collections ASP.NET Core Project, which accesses the `JsxWebApi` Web API, demonstrating the usage of Web APIs, JWT authentication, client-side and server-side frameworks for user authentication, using Blazor Technologies. This project ensures consistency and simplifies the management of these resources.
 
-<div style="border:1px solid #f5c6cb; padding:10px; border-radius:5px; background-color:#f8d7da; color:#721c24;">
-  <strong>⚠ Importanr:</strong> 
-  This application is still In-Work and curently in Phase 1 of Development (e.g., Basic MVP example). Conversely, Phase 2 and beyond will have most (if not all) functionality fully integrated. Stay tuned!
-</div>
+ **⚠ Important:** 
+  This application is still In-Work and currently in Phase 1 of Development (e.g., _Basic MVP example_). Conversely, Phase 2 and beyond will have most (if not all) functionality fully integrated. Stay tuned!
 
 ## Overview
 
