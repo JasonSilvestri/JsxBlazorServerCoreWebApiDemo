@@ -81,7 +81,7 @@ The `JsxBlazorServerCoreWebApiDemo` application (i.e., _jSilvestri.com BETA v 20
     - Create a script to copy the shared resources from `JsxSharedResources` to the `assets` folder of the Angular project during the build process.
 
     ```json
-    // package.json
+   
     "scripts": {
         "postinstall": "npm run copy-shared-resources",
         "copy-shared-resources": "cp -r ../JsxSharedResources/* ./src/assets/"
