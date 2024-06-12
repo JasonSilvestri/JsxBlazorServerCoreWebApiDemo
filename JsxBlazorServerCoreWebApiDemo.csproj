@@ -29,6 +29,7 @@ This release (2024.0.0.001) marks the first iteration of the custom jSilvestri.c
 ⚠️ IMPORTANT! ⚠️
 
 This is the initial release of the Custom jSilvestri.com BETA v2024 Web API Demo Collection: Official JSX S Blazor Server Asp.NET Web API Demo Application. It includes only the essential resources by design.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/JasonSilvestri/JsxBlazorServerCoreWebApiDemo</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
