@@ -8,7 +8,6 @@ The [jSilvestri.com BETA v 2024](https://www.jsilvestri.com/) mobile and web app
 
 The `JsxBlazorServerCoreWebApiDemo` application (i.e., _jSilvestri.com BETA v 2024 JSX Blazor Server Asp.NET Core Web API Demo_) in specific, is a FREE, open-source, custom, reusable, jSilvestri.com 2024 Web API Demo Collections ASP.NET Core Project, which accesses the `JsxWebApi` Web API, demonstrating the usage of Web APIs, JWT authentication, client-side and server-side frameworks for user authentication, using Blazor Technologies. This project ensures consistency and simplifies the management of these resources.
 
-Many applications in the `Custom jSilvestri.com BETA v 2024 Web API Demo Collection` Solution, such as the `Angular Asp.NET Core Web API Demo`, `Blazor Asp.NET Core Web API Demo`, `React Asp.NET Core Web API Demo`, and `Vue Asp.NET Core Web API Demo` applications will use this project to reference common features throughout the collective applications.
 
 ## Getting Started
 
@@ -44,7 +43,7 @@ Many applications in the `Custom jSilvestri.com BETA v 2024 Web API Demo Collect
 
     - Right-click on the solution in Solution Explorer and select `Build Solution`.
 
-## Using JsxSharedResources Shared Resources in jSilvestri.com BETA v 2024 Web API Demo Collection Projects
+## Using JsxSharedResources Project in jSilvestri.com BETA v 2024 Web API Demo Collection Projects
 
 ### Reference the Shared Resources Project
 
@@ -53,7 +52,7 @@ Many applications in the `Custom jSilvestri.com BETA v 2024 Web API Demo Collect
     - Select **Add** > **Project Reference**.
     - Check `JsxSharedResources` and click **OK**.
 
-### Example: Blazor Server Asp.NET Core Web API Demo Project
+### Example: jSilvestri.com 2024 Blazor Server Asp.NET Core Web API Demo Project
 
 **In `JsxBlazorServerCoreWebApiDemo`**:
 
@@ -74,7 +73,7 @@ Many applications in the `Custom jSilvestri.com BETA v 2024 Web API Demo Collect
     <link rel="stylesheet" href="@($"{env.WebRootPath}/CSS/style.css")">
     ```
 
-### Example: Angular Asp.NET Core Web API Demo Project
+### Example: jSilvestri.com 2024 Angular Asp.NET Core Web API Demo Project
 
 **In `JsxAngularCoreWebApiDemo`**:
 
@@ -99,7 +98,7 @@ Many applications in the `Custom jSilvestri.com BETA v 2024 Web API Demo Collect
     <link rel="stylesheet" href="assets/CSS/style.css">
     ```
 
-### Example: Vue Asp.NET Core Web API Demo Project
+### Example:  jSilvestri.com 2024 Vue Asp.NET Core Web API Demo Project
 
 **In `JsxVueCoreWebApiDemo`**:
 
@@ -128,7 +127,7 @@ Many applications in the `Custom jSilvestri.com BETA v 2024 Web API Demo Collect
     </template>
     ```
 
-### Example: React Asp.NET Core Web API Demo Project
+### Example: jSilvestri.com 2024 React Asp.NET Core Web API Demo Project
 
 **In `JsxReactCoreWebApiDemo`**:
 
@@ -324,5 +323,7 @@ While this workflow may change, the steps I am taking to conclude all aspects of
 
 10. **Continuous Integration and Continuous Deployment (CI/CD)**:
     - Set up CI/CD pipelines to automate the build and deployment process for your solution.
+
+
 
 **Copyright © 2024 - All Rights Reserved by Jason Silvestri**
