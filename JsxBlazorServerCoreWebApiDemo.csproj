@@ -41,9 +41,15 @@ This is the initial release of the Custom jSilvestri.com BETA v2024 Web API Demo
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JsxClassLibrary\JsxClassLibrary.csproj" />
-    <ProjectReference Include="..\JsxSharedResources\JsxSharedResources.csproj" />
-    <ProjectReference Include="..\JsxWebApi\JsxWebApi.csproj" />
+    <ProjectReference Include="..\JsxClassLibrary\JsxClassLibrary.csproj">
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\JsxSharedResources\JsxSharedResources.csproj">
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\JsxWebApi\JsxWebApi.csproj">
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
 
   <ItemGroup>
