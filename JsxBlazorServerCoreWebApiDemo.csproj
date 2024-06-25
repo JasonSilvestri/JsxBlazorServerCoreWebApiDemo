@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-JsxBlazorServerCoreWebApiDemo-c37c4df2-8804-477a-9bbb-92593e0a78e7</UserSecretsId>
@@ -38,6 +38,12 @@ This is the initial release of the Custom jSilvestri.com BETA v2024 Web API Demo
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.18" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.18" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JsxClassLibrary\JsxClassLibrary.csproj" />
+    <ProjectReference Include="..\JsxSharedResources\JsxSharedResources.csproj" />
+    <ProjectReference Include="..\JsxWebApi\JsxWebApi.csproj" />
   </ItemGroup>
 
   <ItemGroup>
